@@ -16,7 +16,7 @@ System.out.println(guestList);
 <title>Insert title here</title>
 </head>
 <body>
-	<!------------------- 등록폼 ------------------->
+	<!-------------------- 등록폼 -------------------->
 	<form action="/guestbook2/gbc" method="get">
 	<input type="text" name="action" value="add">
 		<table border="1">
