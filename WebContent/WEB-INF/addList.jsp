@@ -18,7 +18,7 @@ System.out.println(guestList);
 <body>
 	<!-------------------- 등록폼 -------------------->
 	<form action="/guestbook2/gbc" method="get">
-	<input type="text" name="action" value="add">
+	<input type="hidden" name="action" value="add">
 		<table border="1">
 			<tr>
 				<td>이름</td>
